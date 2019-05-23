@@ -27,21 +27,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .logo .imagenLogo {
   width: 37px;
   height: auto;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .buscador {
-  width: calc(100% - 195px);
+  width: 100%;
   height: 75px;
-  background-color: yellow;
+  background-color: white;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .hamburguesa {
   width: 100px;
   height: 75px;
@@ -49,21 +50,23 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px grey solid;
+  background-color: white;
+  display: none;
 }
-/* line 53, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .hamburguesa svg {
   width: 20px;
   height: auto;
   fill: grey;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .botoneraYContenido {
   display: flex;
   flex-direction: row;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .botonera {
   width: 95px;
   height: 380px;
@@ -71,7 +74,7 @@ body {
   position: sticky;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .botones {
   width: 95px;
   height: 95px;
@@ -80,20 +83,20 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* line 76, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .botones .botonAgrupado {
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 80, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .botones svg {
   width: 20px;
   height: auto;
   fill: grey;
 }
-/* line 85, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .botones span {
   font-size: 10px;
   font-weight: 300;
@@ -101,11 +104,11 @@ body {
   margin-top: 10px;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .contenido {
   width: calc(100% - 95px);
 }
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .contenido .imgApertura {
   width: 100%;
   height: 380px;
@@ -117,14 +120,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* line 103, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .contenido .imgApertura .tituloTheMovieDBAPP {
   font-weight: 500;
   letter-spacing: 0.5px;
   font-size: 28px;
+  position: relative;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .encabezadoCategorias {
   display: flex;
   align-content: center;
@@ -135,11 +139,11 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 131, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .encabezadoCategorias h3 {
   font-weight: 300;
 }
-/* line 134, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .encabezadoCategorias p {
   font-size: 12px;
   font-weight: 300;
@@ -147,7 +151,7 @@ body {
   color: rgba(8, 28, 36, 0.5);
 }
 
-/* line 142, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .contenedorImagenesPelis {
   display: flex;
   justify-content: center;
@@ -157,7 +161,7 @@ body {
   margin-right: 60px;
   padding-left: 0;
 }
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .contenedorImagenesPelis .pelicula {
   width: 20%;
   height: 285px;
@@ -165,7 +169,7 @@ body {
   margin-right: 70px;
   background-color: aqua;
 }
-/* line 155, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .contenedorImagenesPelis .peliculaParaHome {
   width: 20%;
   height: 285px;
@@ -173,7 +177,7 @@ body {
   background-color: aqua;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .contenedorTitulosPelis {
   display: flex;
   justify-content: center;
@@ -182,7 +186,7 @@ body {
   margin-right: 60px;
   padding-left: 0;
 }
-/* line 168, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .contenedorTitulosPelis .titulo {
   width: 20%;
   height: 60px;
@@ -193,7 +197,7 @@ body {
   color: rgba(8, 28, 36, 0.5);
   font-weight: 300;
 }
-/* line 178, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .contenedorTitulosPelis .tituloParaHome {
   width: 20%;
   height: 60px;

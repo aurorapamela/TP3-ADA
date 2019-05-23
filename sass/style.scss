@@ -32,6 +32,7 @@ body{
     width: 95px;
     height: $alturaNav;
     @include center();
+    position: fixed;
     .imagenLogo{
         width: 37px;
         height: auto;
@@ -39,9 +40,9 @@ body{
 } 
 
 .buscador{
-    width: calc(100% - 195px);
+    width: 100%;
     height: $alturaNav;
-    background-color: yellow;
+    background-color: white;
 }
 
 .hamburguesa{
@@ -49,7 +50,8 @@ body{
     height: $alturaNav;
     @include center();
     border: 1px grey solid;
-    //display: none;
+    background-color: white;
+    display: none;
     svg{
         width: 20px;
         height: auto;
@@ -104,14 +106,14 @@ body{
             font-weight: 500;
             letter-spacing: 0.5px;
             font-size: 28px;
-            // position: relative;
+            position: relative;
         }
     }
 }    
 
 // .imgApertura:before{
 //     width: 100%;
-//     height: 100%;
+//     height: 380px;
 //     background-color: hsla(0,0%,97%,.7);
 //     content: "";
 //     position: absolute;
